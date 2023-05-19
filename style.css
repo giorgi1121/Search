@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: #121212;
+}
+
+header {
+  display: inline-block;
+  text-align:right;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  background-color: #09090960;
+}
+
+a {
+  padding: 25px;
+  position: relative; top: 40px;
+  text-align: center;
+  text-decoration:solid;
+  color: beige;
+  font-size: 23px;
+}
+
+
+form {
+  display: inline-block;
+}
+
+input {
+  border-radius: 25px;
+  padding: 7px;
+  width: 40pc;
+  height: auto;
+  margin: 5px;
+  position: relative; top: 140px; right: 297px;
+  border: 1px solid grey;
+}
+
+input[type="text"] {
+  background-color: rgb(21, 20, 20);
+  color: white;
+  font-size: medium;
+  padding: 12px;
+  display: block;
+  background-color: transparent;
+  font-style: normal;
+  font-size: medium;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  color: white;
+  width: 200px;
+}
+
+
+label {
+  display: inline-block;
+  position: relative; top: 300px; right: 500px;
+  width: 180px;
+  color: rgb(159, 152, 152);
+  font-size: larger;
+  text-align: left;
+}
+
+.advanced_search {
+  position: relative; right: 200px; top: 260px;
+  width: 365px;
+  height: 15px;
+  border-radius: 0%;
+}
+
+#advance_submit{
+  position: relative; top: 280px; right: 105px;
+  border-radius: 0%;
+  background-color: rgb(53, 144, 241);
+}
+
+img {
+  width: 600px;
+  height: 300px;
+  position: relative; top: 90px; left: 350px; 
+  text-align:left;
+  
+}
+
+#advance_google_image {
+  position: relative; top: 0px; left: 200px;
+}
+
+span {
+  
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position:relative; left: 190px;
+    white-space: nowrap;
+}
+
+#images_logo{
+  position: relative; top: 90px; left: 378px; 
+  text-align:left;
+}
+
+.images_input {
+  position: relative; top: 140px; right: 325px;
+}
